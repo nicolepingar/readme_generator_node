@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// conditional so license link/image changes based on user input
 function renderLicenseLink(response) {
   let license = " "
   if (response.license == "MIT") {
@@ -15,9 +14,7 @@ function renderLicenseLink(response) {
 
   return license
 }
-
-
-// TODO: Create a function to generate markdown for README
+// function generates markdown for README
 function generateMarkdown(response, questions) {
   return `# ${response.title}
 
