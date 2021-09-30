@@ -6,45 +6,45 @@ const generateMarkdown = require("./utils/generateMarkdown")
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        type: 'input',
+        type: 'input', //0
         message: "What is your GitHub username?",
         name: 'username'
     },
     {
-        type: 'input',
+        type: 'input', //1
         message: "What is your email address?",
-        name: 'email'
+        name: 'questions'
     },
     {
-        type: 'input',
+        type: 'input', //2
         message: "What is the title of your application?",
         name: 'title'
     },
     {
-        type: 'input',
+        type: 'input',//3
         message: "Please write a short description of your application.",
         name: 'description'
     },
     {
-        type: 'list',
+        type: 'list', //4
         message: "What kind of license should your application have?",
         name: 'license',
         choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
     },
     {
-        type: 'input',
+        type: 'input',//5
         message: "What command should be run to install dependencies?",
         name: 'installation',
         default: "npm i"
     },
     {
-        type: 'input',
+        type: 'input', //6
         message: "What command should be run to run tests?",
         name: 'tests',
         default: "npm test"
     },
     {
-        type: 'input',
+        type: 'input', //7
         message: "What does the user need to know about using the repo?",
         name: 'usage'
     },
@@ -66,7 +66,7 @@ function init() {
         .prompt(questions)
         .then((response) => {
             console.log(response);
-            writeToFile("README1.md", generateMarkdown(response));
+            writeToFile("README1.md", generateMarkdown(response, questions));
         })
 }
 // Function call to initialize app
