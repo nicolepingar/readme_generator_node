@@ -1,9 +1,9 @@
-# test
+# Project 1
 
-  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Description
-  gg
+  its fun!
   
   ## Table of Contents
 
@@ -20,13 +20,13 @@
       npm i
 
   ## Usage 
-  gdfg
+  not anything
 
   ## License
-  This project is licensed under the BSD 3 license.
+  This project is licensed under the GPL 3.0 license.
 
   ## Contributing
-  fdh
+  nothing
 
   ## Tests
   To run tests, run the following command:
@@ -34,4 +34,4 @@
       npm test
 
   ## Questions
-  If you have any questions about the repository, open an issue or contact me directly at test2@test.com. You can find more of my work at nicolepingar.
+  If you have any questions about the repository, open an issue or contact me directly at nicolepingar@gmail.com. You can find more of my work at [nicolepingar](https://github.com/nicolepingar).
